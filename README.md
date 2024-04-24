@@ -32,6 +32,9 @@ Please follow this step :
 - run `php artisan serve`
 - run `php artisan reverb:start --debug`
 
+For testing result :
+- run `php artisan send:msg "Hello world!"`
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
