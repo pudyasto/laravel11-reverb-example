@@ -49,10 +49,8 @@ class SendBroadcast extends Command
                 broadcast($msg);
             }
         }else{
-            for($i=1;$i<=10;$i++){
-                $msg->channel = 'all';
-                broadcast($msg);
-            }
+            $msg->channel = 'all';
+            broadcast($msg);
         }
     }
 }
